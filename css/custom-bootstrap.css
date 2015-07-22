@@ -1,0 +1,45 @@
+
+
+#dLabel {
+	background: rgb(242, 200, 118);
+	padding-left: 5px;
+}
+
+.dropdown .dropdown-menu {
+	display: block;
+	visibility: hidden;
+	opacity: 0;
+	transition: all 0.3s;
+}
+
+.dropdown:hover .dropdown-menu {
+  visibility: visible;
+  opacity: 1;
+}
+
+.dropdown-menu > li > a {
+	color: rgb(59, 90, 158);
+	font-weight: 700;
+	line-height: 50px
+
+}
+.dropdown-menu > li > a:hover {
+	border: 3px solid rgb(169, 140, 84);
+	border-radius: 25px;
+	background: rgb(242, 219, 183);
+	color: rgb(5, 53, 157);
+}
+
+.dropdowns-menu > li > a:visited {
+	color: rgb(59, 90, 158);
+
+}
+
+.dropdown-menu {
+	width: 320px; /*fallback*/
+	width: 97vw;
+	text-align: center;
+	background: rgb(242, 200, 118);
+	font-size: 20px;
+
+}
