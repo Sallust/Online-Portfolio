@@ -7,8 +7,6 @@
 	}
 }
 
-
-
 @media screen and (min-width: 450px) {         /* Name positioning and Size changes       */
 	.header-text {
 		font-size: 60px;
@@ -61,7 +59,7 @@
 		font-size: 120px;
 	}
 	.portfolio-item:first-of-type{
-		margin: 0 auto 2px 18px;      /* IMHO changing this from margin-left seems to make this code less clear since I only want to change margin-left and leave else as is*/
+		margin: 0 auto 2px 18px;
 	}
 	.portfolio-item:last-of-type {
 		margin: 0 18px 2px auto;
