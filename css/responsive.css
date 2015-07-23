@@ -9,12 +9,12 @@
 
 
 
-@media screen and (min-width: 450px){         /* Name positioning and Size changes       */
+@media screen and (min-width: 450px) {         /* Name positioning and Size changes       */
 	.header-text {
 		font-size: 60px;
 		font-size: 11vw;
-		padding-right: .5em;
-		margin-top: .4em;
+		padding: 0 0.5em 0 0;
+		margin: 0.4em 0 0 0;
 	}
 	.header-smalltext {
 		font-size: 18px;
@@ -34,12 +34,12 @@
 
 @media screen and (min-width: 800px) {
 	.header-text {
-		padding-right: .6em;
+		padding: 0 0.6em 0 0;
 		font-size: 110px;
 		font-size: 12vw;
 	}
 	.header-smalltext {
-		padding-right: 2em;
+		padding: 0 2em 0 0;
 		font-size: 30px
 	}
 	.nav-name {
@@ -54,16 +54,16 @@
 	}
 	html {
 		background: grey;  /*fallback*/
-		background: url(dc-lion-1020.jpg) no-repeat top left fixed,
-		url(capitol-1020.jpg) no-repeat top right fixed;
+		background: url(../images/dc-lion-1020.jpg) no-repeat top left fixed,
+		url(../images/capitol-1020.jpg) no-repeat top right fixed;
 	}
 	.header-text {
 		font-size: 120px;
 	}
 	.portfolio-item:first-of-type{
-		margin-left: 18px;
+		margin: 0 auto 2px 18px;      /* IMHO changing this from margin-left seems to make this code less clear since I only want to change margin-left and leave else as is*/
 	}
 	.portfolio-item:last-of-type {
-		margin-right: 18px;
+		margin: 0 18px 2px auto;
 	}
 }
