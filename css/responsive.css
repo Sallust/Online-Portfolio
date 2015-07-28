@@ -52,7 +52,7 @@
 	}
 	html {
 		background: grey;  /*fallback*/
-		background: url(../images/dc-lion-1020.jpg) no-repeat top left fixed,
+		background: url(../images/dc-lion2-1020.jpg) no-repeat top left fixed,
 		url(../images/capitol-1020.jpg) no-repeat top right fixed;
 	}
 	.header-text {

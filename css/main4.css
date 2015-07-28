@@ -9,7 +9,7 @@ h4,
 h5,
 i,
 button,
-li,
+li,                   /* listed tags instead of universal selector to speed rendering */
 ul {
 	vertical-align: baseline;
 	font-weight: inherit;
@@ -64,7 +64,7 @@ h4 {
 	font-size: 40px; /*fallback*/
 	font-size: 12vw;
 	text-align: right;
-	text-shadow: 0 0 10px rgba(242, 200, 118, 0.6);
+	text-shadow: 0 0 8px rgba(242, 200, 118, 0.6);
 	background: -webkit-linear-gradient(transparent, transparent),
 	url(../images/marble2xs.jpg);
 	-webkit-background-clip: text;
@@ -227,6 +227,10 @@ h5 {
 	background: linear-gradient(rgba(0,0,0, 1) 40%, rgba(0,0,0, 0.5));
 	font-size: 150%;
 	transition: all 0.3s;
+}
+
+.apparel-text {
+	text-transform: none;
 }
 
 /*        Footer       */
